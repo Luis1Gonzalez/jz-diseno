@@ -26,11 +26,11 @@ export default function Head() {
                     </div>
 
                     <div className='ml-2 w-[50%]'>
-                        <h2 className='text-xl flex tracking-widest'>Diseño <span className='border flex justify-center rounded-full bg-blue-500 w-8 h-8 mx-2'>&</span></h2>
-                        <h1 className='font-black text-xl tracking-widest'> Muebles</h1>
+                        <h2 className='text-2xl flex tracking-widest'>Diseño <span className='border flex justify-center rounded-full bg-blue-500 w-8 h-8 mx-2'>&</span></h2>
+                        <h1 className='font-black text-3xl tracking-widest'> Muebles</h1>
                     </div>
 
-                    <div className='w-[25%]  p-4 flex justify-center mx-2 text-xl'>
+                    <div className='w-[25%] p-4 flex justify-center mx-2 text-3xl'>
                         <RiMenuAddFill />
                     </div>
 
