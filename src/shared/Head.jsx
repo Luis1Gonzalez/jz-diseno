@@ -25,7 +25,7 @@ export default function Head() {
                         <img className='h-[70px]' src={logo} alt="logo" />
                     </div>
 
-                    <div className='ml-2 w-[50%]'>
+                    <div className='ml-2 w-[50%] mx-auto'>
                         <h2 className='text-2xl flex tracking-widest'>Diseño <span className='border flex justify-center rounded-full bg-blue-500 w-8 h-8 mx-2'>&</span></h2>
                         <h1 className='font-black text-3xl tracking-widest'> Muebles</h1>
                     </div>
