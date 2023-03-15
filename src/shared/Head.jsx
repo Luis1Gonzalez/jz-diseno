@@ -1,6 +1,7 @@
 import React from 'react'
 import { SlPhone } from 'react-icons/sl'
 import { MdOutlineMarkEmailRead } from 'react-icons/md'
+import { RiMenuAddFill } from 'react-icons/ri'
 import logo from '../assets/logoZacaro.png'
 
 export default function Head() {
@@ -29,11 +30,13 @@ export default function Head() {
                         <h1 className='font-black text-xl tracking-widest'> Muebles</h1>
                     </div>
 
-                    <div className='w-[25%] bg-green-700 p-4 flex justify-center mx-2'>Menu</div>
+                    <div className='w-[25%]  p-4 flex justify-center mx-2 text-xl'>
+                        <RiMenuAddFill />
+                    </div>
 
                 </div>
 
-                <div className='pb-2 bg-yellow-500'>
+                <div className='pb-2'>
                     <ul className='flex w-100 justify-evenly items-center'>
                         <li className='text-xs'>Innovación</li>
                         <li className='text-xs'>Calidad</li>
