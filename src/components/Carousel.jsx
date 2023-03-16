@@ -1,37 +1,43 @@
-import img1 from '../assets/z21.jpg'
-import img2 from '../assets/z2.jpg'
-import img3 from '../assets/z18.jpg'
-import img4 from '../assets/z4.jpg'
-import img5 from '../assets/z5.jpg'
-import img6 from '../assets/z20.jpg'
+import img1 from '../assets/c21.jpg'
+import img2 from '../assets/c2.jpg'
+import img3 from '../assets/c18.jpg'
+import img4 from '../assets/c4.jpg'
+import img5 from '../assets/c5.jpg'
+import img6 from '../assets/c20.jpg'
 
 
 function Carousel() {
   return (
-
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={img1} className="d-block w-100" alt="esto" />
+      <img src={img1} className="d-block w-100" alt="Imagen de muestra 1" />
     </div>
     <div className="carousel-item">
-      <img src={img2} className="d-block w-100" alt="..." />
+      <img src={img2} className="d-block w-100" alt="Imagen de muestra 2" />
     </div>
     <div className="carousel-item">
-      <img src={img3} className="d-block w-100" alt="..." />
+      <img src={img3} className="d-block w-100" alt="Imagen de muestra 3" />
     </div>
     <div className="carousel-item">
-      <img src={img4} className="d-block w-100" alt="..." />
+      <img src={img4} className="d-block w-100" alt="Imagen de muestra 4" />
     </div>
     <div className="carousel-item">
-      <img src={img5} className="d-block w-100" alt="..." />
+      <img src={img5} className="d-block w-100" alt="Imagen de muestra 5" />
     </div>
     <div className="carousel-item">
-      <img src={img6} className="d-block w-100" alt="..." />
+      <img src={img6} className="d-block w-100" alt="Imagen de muestra 6" />
     </div>
-  </div>  
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
 </div>
-
   );
 }
 
