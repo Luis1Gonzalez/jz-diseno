@@ -8,7 +8,7 @@ import img6 from '../assets/z20.jpg'
 
 function Carousel() {
   return (
-    <div className='w-[100%]'>
+
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -31,7 +31,7 @@ function Carousel() {
     </div>
   </div>  
 </div>
-</div>
+
   );
 }
 
