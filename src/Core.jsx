@@ -1,4 +1,4 @@
-import Head from './shared/Head'
+import Head from './shared/Header'
 import './styles/core.css'
 
 export default function Core() {
