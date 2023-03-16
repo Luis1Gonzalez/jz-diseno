@@ -37,7 +37,7 @@ export default function Head() {
                         </div>
 
                         <div className='ml-2 w-[50%] flex flex-col items-center'>
-                            <h2 className='text-2xl flex tracking-widest'>Diseño <span className='flex justify-center rounded-full bg-sky-400 w-8 h-8 mx-2 text-xl text-right font-bold'>&</span></h2>
+                            <h2 className='text-2xl flex tracking-widest'>Diseños <span className='flex justify-center rounded-full bg-sky-400 w-8 h-8 mx-2 text-xl text-right font-bold'>&</span></h2>
                             <h1 className='font-black text-3xl tracking-widest'> Muebles</h1>
                         </div>
 
@@ -60,11 +60,11 @@ export default function Head() {
             </div>
 
             <div className={`w-[100%] text-xs text-gray-400 ${menu} z-10 menu-animation`}>
-                <p className=' py-2 px-10 hover:text-gray-800 hover:text-lg'>Inicio</p>
-                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 hover:text-lg'>Servicios</p>
-                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 hover:text-lg'>Nuestros Proyectos</p>
-                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 hover:text-lg'>Opiniones de Clientes</p>
-                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 hover:text-lg'>Contacto</p>
+                <p className=' py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Inicio</p>
+                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Servicios</p>
+                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Nuestros Proyectos</p>
+                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Opiniones de Clientes</p>
+                <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Contacto</p>
             </div>
 
         </div>
