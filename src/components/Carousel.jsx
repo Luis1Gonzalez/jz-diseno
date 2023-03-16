@@ -8,6 +8,7 @@ import img6 from '../assets/z20.jpg'
 
 function Carousel() {
   return (
+    <div className='w-[100%]'>
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -29,6 +30,7 @@ function Carousel() {
       <img src={img6} className="d-block w-100" alt="..." />
     </div>
   </div>  
+</div>
 </div>
   );
 }

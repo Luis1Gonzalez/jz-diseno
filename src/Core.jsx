@@ -4,7 +4,7 @@ import './styles/core.css'
 
 export default function Core() {
   return (
-    <div className='container min-w-[320px] max-w-[1280px] mx-auto flex flex-col sm:p-0 bg-white'>
+    <div className='container min-w-[320px] max-w-[1280px] flex flex-col p-0 bg-white'>
       <Head />
       <Carousel />
     </div>

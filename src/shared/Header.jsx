@@ -16,7 +16,7 @@ export default function Head() {
     }
 
     return (
-        <div className='mb-2 py-3'>
+        <div className='mb-2 '>
 
             <div className='h-[40px] flex justify-evenly text-stone-200 md:hidden bg-zinc-900 relative z-20'>
                 <div className='flex items-center justify-evenly'>
