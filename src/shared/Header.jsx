@@ -59,7 +59,7 @@ export default function Head() {
                 </div>
             </div>
 
-            <div className={`w-[100%] text-xs text-gray-400 ${menu} z-10 menu-animation`}>
+            <div className={`w-[100%] text-xs text-gray-600 ${menu} z-10 menu-animation opacity-80`}>
                 <p className=' py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Inicio</p>
                 <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Servicios</p>
                 <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Nuestros Proyectos</p>
