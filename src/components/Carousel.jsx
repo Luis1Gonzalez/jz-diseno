@@ -1,9 +1,9 @@
-import img1 from '../assets/c21.jpg'
-import img2 from '../assets/c2.jpg'
-import img3 from '../assets/c18.jpg'
-import img4 from '../assets/c4.jpg'
-import img5 from '../assets/c5.jpg'
-import img6 from '../assets/c20.jpg'
+import img1 from '../assets/c1.png'
+import img2 from '../assets/c2.png'
+import img3 from '../assets/c3.png'
+import img4 from '../assets/c4.png'
+import img5 from '../assets/c5.png'
+import img6 from '../assets/c6.png'
 
 
 function Carousel() {
