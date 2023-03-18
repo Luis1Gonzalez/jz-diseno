@@ -1,7 +1,7 @@
-import z13 from '../assets/z13.jpg'
-import z8 from '../assets/z8.jpg'
-import z22 from '../assets/z22.jpg'
-import z11 from '../assets/z11.jpg'
+import j1 from '../assets/j1.png'
+import j2 from '../assets/j2.png'
+import j3 from '../assets/j3.png'
+import j4 from '../assets/j4.png'
 
 export default function Presentation() {
     return (
@@ -16,25 +16,25 @@ export default function Presentation() {
             <div>
                 <h2 className="text-center text-xl my-4">Nuestro Trabajo</h2>
 
-<div className='border pb-4 mb-3 rounded-lg shadow-lg shadow-indigo-500/40'>
-    <img className='h-[100%] rounded-t-lg' src={z13} alt="imagen de reforma de cocina" />
-    <p className='px-3 pt-3 '>Reforma de Cocinas</p>
-</div>
+                <div className='h-[320px] pb-14 mb-5 rounded-lg border text-sm shadow-lg'>
+                    <img className='h-[100%] w-[100%] rounded-t-lg' src={j1} alt="imagen de reforma de cocina" />
+                    <p className='px-3 pt-3 '>Reforma de Cocinas</p>
+                </div>
 
-<div className='border pb-4 mb-3 rounded-lg shadow-lg shadow-indigo-500/40'>
-    <img className='h-[100%] rounded-t-lg' src={z8} alt="imagen de instalación de parquet" />
-    <p className='px-3 pt-3'>Instalación de Parquet</p>
-</div>
+                <div className='h-[320px] pb-14 mb-5 rounded-lg border text-sm shadow-lg'>
+                    <img className='h-[100%] w-[100%] rounded-t-lg' src={j2} alt="imagen de instalación de parquet" />
+                    <p className='px-3 pt-3'>Instalación de Parquet</p>
+                </div>
 
-<div className='border pb-4 mb-3 rounded-lg shadow-lg shadow-indigo-500/40'>
-    <img className='h-[100%] rounded-t-lg' src={z22} alt="imagen de reforma de baños" />
-    <p className='px-3 pt-3 '>Reforma de Baños</p>
-</div>
+                <div className='h-[320px] pb-4 mb-5 rounded-lg border text-sm shadow-lg'>
+                    <img className='h-[90%] w-[100%] rounded-t-lg' src={j3} alt="imagen de reforma de baños" />
+                    <p className='px-3 pt-3 '>Reforma de Baños</p>
+                </div>
 
-<div className='border pb-4 mb-3 rounded-lg shadow-lg shadow-indigo-500/40'>
-    <img className='h-[100%] rounded-t-lg' src={z11} alt="imagen de Fabricacón de muebles a medida" />
-    <p className='px-3 pt-3 '>Fabricacón de muebles a medida</p>
-</div>
+                <div className='h-[320px] pb-4 mb-5 rounded-lg border text-sm shadow-lg'>
+                    <img className='h-[90%] w-[100%] rounded-t-lg' src={j4} alt="imagen de Fabricacón de muebles a medida" />
+                    <p className='px-3 pt-3 '>Fabricacón de muebles a medida</p>
+                </div>
 
             </div>
 
