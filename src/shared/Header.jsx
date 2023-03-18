@@ -16,7 +16,7 @@ export default function Head() {
     }
 
     return (
-        <div className='mb-2 '>
+        <div className=' '>
 
             <div className='h-[40px] flex justify-evenly text-stone-200 md:hidden bg-zinc-900 relative z-20'>
                 <div className='flex items-center justify-evenly'>
@@ -48,7 +48,7 @@ export default function Head() {
                     </div>
 
                     <div className=''>
-                        <ul className='flex w-100 justify-evenly items-center italic text-sky-400'>
+                        <ul className='flex w-100 justify-evenly items-center italic text-sky-400 mb-4'>
                             <li className='text-sm'>Innovación</li>
                             <li>-</li>
                             <li className='text-sm'>Calidad</li>
