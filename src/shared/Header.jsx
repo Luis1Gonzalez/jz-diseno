@@ -47,7 +47,7 @@ export default function Head() {
 
                     </div>
 
-                    <div className=''>
+                    <div className='mb-4'>
                         <ul className='flex w-100 justify-evenly items-center italic text-sky-400 mb-4'>
                             <li className='text-sm'>Innovación</li>
                             <li>-</li>
