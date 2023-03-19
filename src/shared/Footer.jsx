@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import { FaMapMarkedAlt } from 'react-icons/fa'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { IoMdMailUnread } from 'react-icons/io'
 import { AiOutlineInstagram } from 'react-icons/ai'
@@ -12,7 +12,7 @@ export default function Footer() {
             <div className='mt-2 mb-8'>
                 <h2 className='mb-2 text-center text-red-800 uppercase text-xs'>Información de Contacto</h2>
 
-                <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkerAlt /></span>C/ Romero numero 19 Nave 3
+                <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkedAlt /></span>C/ Romero numero 19 Nave 3
                     50720 Pol. Empresarium (La Cartuja)</p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span>Teléfono: 991165341</p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><IoMdMailUnread /></span>Email: gueva@gmail.com</p>
