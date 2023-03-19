@@ -1,7 +1,3 @@
-import j1 from '../assets/j1.png'
-import j2 from '../assets/j2.png'
-import j3 from '../assets/j3.png'
-import j4 from '../assets/j4.png'
 import { RiSlideshowLine } from 'react-icons/ri'
 import { GiPencilRuler } from 'react-icons/gi'
 import { FaCalendarAlt } from 'react-icons/fa'
@@ -9,9 +5,8 @@ import { FaRegHandshake } from 'react-icons/fa'
 import { offer } from '../data/objeto'
 
 export default function Presentation() {
-    console.log(offer)
     return (
-        <div className="my-7 px-4">
+        <div className="mt-7 px-4">
 
             <div className='mb-8'>
                 <h2 className="text-center text-xl my-3">Empresa de reformas en Trujillo</h2>
@@ -30,40 +25,7 @@ export default function Presentation() {
                         </div>
                     ))}
                 </div>
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             <div className='flex flex-wrap justify-evenly'>
 
@@ -87,23 +49,7 @@ export default function Presentation() {
                     <p className='text-xs text-center font-normal text-gray-500'>Máxima garantía y cumplimiento de plazos</p>
                 </div>
 
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
 
