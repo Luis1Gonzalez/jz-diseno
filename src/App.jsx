@@ -1,11 +1,10 @@
-import { Fragment } from "react"
 import Core from "./Core"
 
 function App() {
   return (
-    <Fragment>  
+    <div className="max-w-[1280px]  flex justify-center items-center shadow-lg">  
       <Core />
-    </Fragment>
+    </div>
   )
 }
 

@@ -19,7 +19,7 @@ export default function Head() {
     }
 
     return (
-        <div className='lg:w-[50%]'>
+        <div className='exceptions lg:w-[50%] lg:sticky log:top-0'>
 
             <div className='h-[40px] flex justify-evenly text-stone-200 md:hidden bg-zinc-900 relative z-20 order-1'>
                 <div className='flex items-center justify-evenly'>
@@ -62,7 +62,7 @@ export default function Head() {
                 </div>
             </div>
 
-            <div className={`w-[100%] text-xs text-gray-600 ${menu} z-10 menu-animation opacity-80 order-3 lg:relative lg:text-center lg:bg-white`}>
+            <div className={`w-[100%] text-xs text-gray-600 ${menu} z-10 menu-animation opacity-80 order-3 lg:relative lg:text-center lg:bg-white lg:my-16`}>
                 <p className=' py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Inicio</p>
                 <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Servicios</p>
                 <p className='border-t border-gray-400 py-2 px-10 hover:text-gray-800 font-bold hover:text-lg tracking-widest'>Nuestros Proyectos</p>

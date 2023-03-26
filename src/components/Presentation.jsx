@@ -1,12 +1,8 @@
-import { RiSlideshowLine } from 'react-icons/ri'
-import { GiPencilRuler } from 'react-icons/gi'
-import { FaCalendarAlt } from 'react-icons/fa'
-import { FaRegHandshake } from 'react-icons/fa'
 import { offer } from '../data/objeto'
 
 export default function Presentation() {
     return (
-        <div className="mt-7 px-4">
+        <div className="mt-7 px-4 lg:w-[100%]">
 
             <div className='mb-8'>
                 <h2 className="text-center text-xl my-3">Empresa de reformas en Trujillo</h2>
@@ -19,7 +15,7 @@ export default function Presentation() {
 
                 <div className="my-7 flex flex-wrap justify-evenly">
                     {offer.map(of => (
-                        <div key={of.id} className='h-[320px] pb-14 mb-3 rounded-lg border text-sm shadow-lg sm:w-[45%]'>
+                        <div key={of.id} className='h-[320px] w-[100%] pb-14 mb-3 rounded-lg border text-sm shadow-lg sm:w-[45%]'>
                             <img className='h-[95%] w-[100%] rounded-t-lg' src={of.image} alt="imagen de reforma de cocina" />
                             <p className='px-3 py-3 text-center'>{of.description}</p>
                         </div>
@@ -27,29 +23,7 @@ export default function Presentation() {
                 </div>
             </div>
 
-            <div className='flex flex-wrap justify-evenly'>
-
-                <div className='w-[40%] mb-5 flex flex-col items-center'>
-                    <span className='text-3xl mb-2 text-red-900'><RiSlideshowLine /></span>
-                    <p className='text-xs text-center font-normal text-gray-500'>Asesoramiento profesional</p>
-                </div>
-
-                <div className='w-[40%] mb-5 flex flex-col items-center'>
-                    <span className='text-3xl mb-2 text-red-900'><GiPencilRuler /></span>
-                    <p className='text-xs text-center font-normal text-gray-500'>Diseño personalizado</p>
-                </div>
-
-                <div className='w-[40%] mb-5 flex flex-col items-center'>
-                    <span className='text-3xl mb-2 text-red-900'><FaCalendarAlt /></span>
-                    <p className='text-xs text-center font-normal text-gray-500'>Proyecto sin compromisos</p>
-                </div>
-
-                <div className='w-[40%] mb-5 flex flex-col items-center'>
-                    <span className='text-3xl mb-2 text-red-900'><FaRegHandshake /></span>
-                    <p className='text-xs text-center font-normal text-gray-500'>Máxima garantía y cumplimiento de plazos</p>
-                </div>
-
-            </div>
+            
 
         </div>
 

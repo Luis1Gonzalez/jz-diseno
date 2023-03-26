@@ -3,14 +3,41 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import { IoMdMailUnread } from 'react-icons/io'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa'
+import { RiSlideshowLine } from 'react-icons/ri'
+import { GiPencilRuler } from 'react-icons/gi'
+import { FaCalendarAlt } from 'react-icons/fa'
+import { FaRegHandshake } from 'react-icons/fa'
 
 export default function Footer() {
     return (
         <div className='p-4'>
 
+<div className='flex flex-wrap justify-evenly'>
 
-            <div className='mt-2 mb-8'>
-                <h2 className='mb-2 text-center text-red-800 uppercase text-xs'>Información de Contacto</h2>
+<div className='w-[40%] mb-5 flex flex-col items-center'>
+    <span className='text-3xl mb-2 text-red-900'><RiSlideshowLine /></span>
+    <p className='text-xs text-center font-normal text-gray-500'>Asesoramiento profesional</p>
+</div>
+
+<div className='w-[40%] mb-5 flex flex-col items-center'>
+    <span className='text-3xl mb-2 text-red-900'><GiPencilRuler /></span>
+    <p className='text-xs text-center font-normal text-gray-500'>Diseño personalizado</p>
+</div>
+
+<div className='w-[40%] mb-5 flex flex-col items-center'>
+    <span className='text-3xl mb-2 text-red-900'><FaCalendarAlt /></span>
+    <p className='text-xs text-center font-normal text-gray-500'>Proyecto sin compromisos</p>
+</div>
+
+<div className='w-[40%] mb-5 flex flex-col items-center'>
+    <span className='text-3xl mb-2 text-red-900'><FaRegHandshake /></span>
+    <p className='text-xs text-center font-normal text-gray-500'>Máxima garantía y cumplimiento de plazos</p>
+</div>
+
+</div>
+
+            <div className='mt-2 mb-8 lg:hidden flex flex-col items-center'>
+                <h2 className='mb-2 text-red-800 uppercase text-xs'>Información de Contacto</h2>
 
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkedAlt /></span>Dirección del negocio...</p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span>Teléfono: 991165341</p>

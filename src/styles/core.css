@@ -2,6 +2,27 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.exceptions{
+    height:fit-content !important;
+}
+
+/*Carousel*/
+.back-carousel{
+    background-image: url(../assets/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+
+.otro{
+    padding: 20px 0;
+}
+
+
+
 /* menu */
 
 .menu-animation {
