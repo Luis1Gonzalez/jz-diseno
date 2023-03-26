@@ -41,26 +41,11 @@ export default function Footer() {
                 <p>Copyright 2023 JZ Diseños&Muebles | Todos los derechos reservados | Desarrollado por Luis1Gonzalez</p>
             </div>
 
-<div className='text-xs text-center mt-14'>
-    <a href="#">Aviso Legal | </a>
-    <a href="#">Política de privacidad |</a>
-    <a href="#"> Política de Cookies</a>
-</div>
-
-
-            <div></div>
-
-
-
-
-
-
-
-
-
-
-
-
+            <div className='text-xs text-center mt-14'>
+                <a href="#">Aviso Legal | </a>
+                <a href="#">Política de privacidad |</a>
+                <a href="#"> Política de Cookies</a>
+            </div>
 
 
         </div>

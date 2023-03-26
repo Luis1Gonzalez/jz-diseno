@@ -7,9 +7,9 @@ import img6 from '../assets/c6.png'
 
 function Carousel() {
   return (
-    <div className=''>
-    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div className="carousel-inner">
+    <div className='flex justify-center bg-stone-300'>
+    <div id="carouselExampleFade" className="carousel slide carousel-fade flex justify-center" data-bs-ride="carousel">
+      <div className="carousel-inner w-[100%] sm:w-[75%] lg:w-[100%]">
         <div className="carousel-item active">
           <img src={img1} className="d-block w-100" alt="Imagen de muestra 1" />
         </div>

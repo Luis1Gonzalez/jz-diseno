@@ -17,9 +17,9 @@ export default function Presentation() {
             <div className='mb-20'>
                 <h2 className="text-center text-xl my-4">Nuestro Trabajo</h2>
 
-                <div className="my-7">
+                <div className="my-7 flex flex-wrap justify-evenly">
                     {offer.map(of => (
-                        <div key={of.id} className='h-[320px] pb-14 mb-3 rounded-lg border text-sm shadow-lg'>
+                        <div key={of.id} className='h-[320px] pb-14 mb-3 rounded-lg border text-sm shadow-lg sm:w-[45%]'>
                             <img className='h-[95%] w-[100%] rounded-t-lg' src={of.image} alt="imagen de reforma de cocina" />
                             <p className='px-3 py-3 text-center'>{of.description}</p>
                         </div>

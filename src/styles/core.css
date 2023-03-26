@@ -15,13 +15,18 @@
 .menu-closed {
     position:absolute;
     left:0;
-    top:0;
+    top:-0.5em;
 }
 
 .menu-show {
     position:absolute;
     left:0;
-    top:198px;
-    background-color: rgb(235, 232, 232);
-    
+    top:190px;
+    background-color: rgb(235, 232, 232);    
+}
+
+@media (min-width: 768px){
+    .menu-show {
+        top:150px; 
+    }
 }
