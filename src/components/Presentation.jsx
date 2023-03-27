@@ -5,9 +5,10 @@ export default function Presentation() {
         <div className="mt-7 px-4 lg:w-[100%]">
 
             <div className='mb-8'>
-                <h2 className="text-center text-xl my-3">Empresa de reformas en Trujillo</h2>
+                <h2 className="text-center text-xl my-3">Empresa de reformas en Arequipa</h2>
 
-                <p className="text-justify text-sm font-light">Diseñamos y ejecutamos reformas integrales de viviendas y apartamentos en Trujillo. Construcción de edificios para oficinas e instalaciones industriales, así como urbanizaciones y viviendas unifamiliares. Confía en un equipo de profesionales cualificados y eficaces. Cumplimos plazos y nos adaptamos al presupuesto con la máxima garantía.</p>
+                <p className="text-justify text-sm font-light">Somos una empresa dedicada a ofrecer servicios de diseño de interiores y construcción.</p><br />
+                <p className="text-justify text-sm font-light">Te brindamos acabados de primera, buen servico y puntualidad.</p>
             </div>
 
             <div className='mb-20'>

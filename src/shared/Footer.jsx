@@ -39,10 +39,18 @@ export default function Footer() {
             <div className='mt-2 mb-8 lg:hidden flex flex-col items-center'>
                 <h2 className='mb-2 text-red-800 uppercase text-xs'>Información de Contacto</h2>
 
-                <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkedAlt /></span>Perú, Arequipa, Camaná Cercada Av. Camaná 1456</p>
+                <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkedAlt /></span><a href="https://goo.gl/maps/6m4XhJ5r3EGBHTsd9" target="_blank">Perú, Arequipa, Camaná Cercada Av. Camaná 1456</a></p>
+                
+                
+                
+                
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span><a href="tel:+51969516619">Telefono: 969516619</a></p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span><a href="tel:+51991165341">Telefono: 991165341</a></p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><IoMdMailUnread /></span><a href="mailto:zacariajavier020@gmail.com">Email: zacariajavier020@gmail.com</a></p>
+
+                <div>
+                    
+                </div>
                 
             </div>
 
