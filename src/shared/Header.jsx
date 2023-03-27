@@ -21,16 +21,16 @@ export default function Head() {
     return (
         <div className='exceptions lg:w-[50%] lg:sticky log:top-0'>
 
-            <div className='h-[40px] flex justify-evenly text-stone-200 md:hidden bg-zinc-900 relative z-20 order-1'>
+            {/* <div className='h-[40px] flex justify-evenly text-stone-200 md:hidden bg-zinc-900 relative z-20 order-1'>
                 <div className='flex items-center justify-evenly'>
                     <p className='mx-1'><SlPhone /></p>
                     <p className='mx-1 text-xs'>991165341</p>
                 </div>
                 <div className='flex items-center'>
                     <p className='mx-1'><MdOutlineMarkEmailRead /></p>
-                    <p className='mx-1 text-xs'>gueva@gmail.com</p>
+                    <p className='mx-1 text-xs'>zacariajavier020@gmail.com</p>
                 </div>
-            </div>
+            </div> */}
 
             <div className='relative z-30 bg-white order-2'>
                 <div className=''>

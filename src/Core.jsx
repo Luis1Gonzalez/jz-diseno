@@ -10,7 +10,7 @@ export default function Core() {
       <Head />
       <Index />
       </div>
-      <Clients />
+      {/* <Clients /> */}
       <Footer />
     </div>
   )
