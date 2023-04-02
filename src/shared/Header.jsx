@@ -60,12 +60,11 @@ export default function Head() {
                 </div>
             </div>
 
-            <div className={`w-[100%] text-xs text-gray-600 ${menu} z-10 menu-animation opacity-80 lg:text-center lg:bg-white lg:mt-16 lg:mb-10`}>
+            <div className={`w-[100%] text-xs text-gray-600 ${menu} z-10 menu-animation opacity-90 lg:text-center lg:bg-white lg:mt-16 lg:mb-10`}>
                 <p className=' py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='/'>Inicio</Link></p>
                 <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='/servicios'>Servicios</Link></p>
                 <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='galeria'>Galería</Link></p>
                 <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Opiniones de Clientes</p>
-                <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Contacto</p>
             </div>
 
         </div>
