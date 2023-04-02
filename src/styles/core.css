@@ -7,11 +7,6 @@
 }
 
 /*Carousel*/
-.back-carousel{
-    background-image: url(../assets/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
@@ -42,7 +37,7 @@
 .menu-show {
     position:absolute;
     left:0;
-    top:170px;
+    top:190px;
     background-color: rgb(235, 232, 232);    
 }
 
