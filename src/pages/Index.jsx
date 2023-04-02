@@ -4,11 +4,11 @@ import '../styles/core.css'
 
 export default function Index() {
   return (
-    <div>
-        <div className='container min-w-[320px] max-w-[1280px] flex flex-col p-0 bg-white'>
+
+        <div className='container min-w-[320px] max-w-[1280px] flex flex-col p-0 bg-white lg:w-[65%]'>
             <Carousel />
             <Presentation />
         </div>
-    </div>
+
   )
 }

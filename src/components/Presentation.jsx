@@ -1,4 +1,5 @@
 import { offer } from '../data/objeto'
+import valoraciones from '../assets/valoraciones.gif'
 
 export default function Presentation() {
     return (
@@ -11,7 +12,7 @@ export default function Presentation() {
                 <p className="text-justify text-sm font-light">Te brindamos acabados de primera, buen servico y puntualidad.</p>
             </div>
 
-            <div className='mb-20'>
+            <div className='mb-8'>
                 <h2 className="text-center text-xl my-4">Nuestro Trabajo</h2>
 
                 <div className="my-7 flex flex-wrap justify-evenly">
@@ -23,6 +24,20 @@ export default function Presentation() {
                     ))}
                 </div>
             </div>
+
+            <div className=' mb-8 flex flex-col w-[100%] lg:hidden'>
+        <h2 className='my-4 lg:text-red-800 uppercase text-xl text-center lg:text-start'>Nuestros Clientes</h2>
+
+        <div className='w-[100%] flex justify-center mb-4 px-4'>
+          <img src={valoraciones} alt="gif de valoraciones" />
+        </div>
+
+        <div className='flex flex-col px-4'>
+        <p className='text-justify text-sm mb-3'>La opinión de <b>Nuestos Clientes</b> es nuestra mejor carta de presentación, por ello le garantizamos su satisfacción.</p>
+        <p className='text-red-700 hover:text-red-900 italic text-xs hover:text-lg pointer' >Aqui puedes ver sus valoraciones.</p>
+        </div>
+        
+      </div>
 
             
 

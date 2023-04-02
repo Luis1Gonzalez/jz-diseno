@@ -10,48 +10,39 @@ import { FaRegHandshake } from 'react-icons/fa'
 
 export default function Footer() {
     return (
-        <div className='p-4'>
+        <div className='p-4 w-[100%] flex flex-col items-center lg:border  lg:shadow-2xl'>
 
-<div className='flex flex-wrap justify-evenly'>
+            <div className='flex flex-wrap justify-evenly lg:w-[50%]'>
 
-<div className='w-[40%] mb-5 flex flex-col items-center'>
-    <span className='text-3xl mb-2 text-red-900'><RiSlideshowLine /></span>
-    <p className='text-xs text-center font-normal text-gray-500'>Asesoramiento profesional</p>
-</div>
+                <div className='w-[40%] mb-5 flex flex-col items-center'>
+                    <span className='text-3xl mb-2 text-red-900'><RiSlideshowLine /></span>
+                    <p className='text-xs text-center font-normal text-gray-500'>Asesoramiento profesional</p>
+                </div>
 
-<div className='w-[40%] mb-5 flex flex-col items-center'>
-    <span className='text-3xl mb-2 text-red-900'><GiPencilRuler /></span>
-    <p className='text-xs text-center font-normal text-gray-500'>Diseño personalizado</p>
-</div>
+                <div className='w-[40%] mb-5 flex flex-col items-center'>
+                    <span className='text-3xl mb-2 text-red-900'><GiPencilRuler /></span>
+                    <p className='text-xs text-center font-normal text-gray-500'>Diseño personalizado</p>
+                </div>
 
-<div className='w-[40%] mb-5 flex flex-col items-center'>
-    <span className='text-3xl mb-2 text-red-900'><FaCalendarAlt /></span>
-    <p className='text-xs text-center font-normal text-gray-500'>Proyecto sin compromisos</p>
-</div>
+                <div className='w-[40%] mb-5 flex flex-col items-center'>
+                    <span className='text-3xl mb-2 text-red-900'><FaCalendarAlt /></span>
+                    <p className='text-xs text-center font-normal text-gray-500'>Proyecto sin compromisos</p>
+                </div>
 
-<div className='w-[40%] mb-5 flex flex-col items-center'>
-    <span className='text-3xl mb-2 text-red-900'><FaRegHandshake /></span>
-    <p className='text-xs text-center font-normal text-gray-500'>Máxima garantía y cumplimiento de plazos</p>
-</div>
+                <div className='w-[40%] mb-5 flex flex-col items-center'>
+                    <span className='text-3xl mb-2 text-red-900'><FaRegHandshake /></span>
+                    <p className='text-xs text-center font-normal text-gray-500'>Máxima garantía y cumplimiento de plazos</p>
+                </div>
 
-</div>
+            </div>
 
             <div className='mt-2 mb-8 lg:hidden flex flex-col items-center'>
                 <h2 className='mb-2 text-red-800 uppercase text-xs'>Información de Contacto</h2>
 
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><FaMapMarkedAlt /></span><a href="https://goo.gl/maps/6m4XhJ5r3EGBHTsd9" target="_blank">Perú, Arequipa, Camaná Cercada Av. Camaná 1456</a></p>
-                
-                
-                
-                
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span><a href="tel:+51969516619">Telefono: 969516619</a></p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><BsFillTelephoneFill /></span><a href="tel:+51991165341">Telefono: 991165341</a></p>
                 <p className='flex text-xs my-2'><span className='mx-3 text-lg text-red-800'><IoMdMailUnread /></span><a href="mailto:zacariajavier020@gmail.com">Email: zacariajavier020@gmail.com</a></p>
-
-                <div>
-                    
-                </div>
-                
             </div>
 
 

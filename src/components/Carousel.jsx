@@ -8,22 +8,22 @@ import img6 from '../assets/c6.png'
 function Carousel() {
   return (
 
-<div id="carouselExampleAutoplaying" className="carousel slide back-carousel flex justify-center" data-bs-ride="carousel">
-  <div className="carousel-inner  sm:w-[75%] otro opacity-80">
+<div id="carouselExampleAutoplaying" className="carousel slide flex justify-center" data-bs-ride="carousel">
+  <div className="carousel-inner  sm:w-[75%] otro opacity-80 sm:rounded-lg sm:border sm:shadow-lg">
     <div className="carousel-item active ">
-      <img src={img1} className="d-block w-100" alt="Imagen de muestra 1" />
+      <img src={img1} className="d-block w-100 rounded-2xl" alt="Imagen de muestra 1" />
     </div>
     <div className="carousel-item">
-      <img src={img2} className="d-block w-100" alt="Imagen de muestra 2" />
+      <img src={img2} className="d-block w-100 rounded-2xl" alt="Imagen de muestra 2" />
     </div>
     <div className="carousel-item">
-      <img src={img3} className="d-block w-100" alt="Imagen de muestra 3" />
+      <img src={img3} className="d-block w-100 rounded-2xl" alt="Imagen de muestra 3" />
     </div>
     <div className="carousel-item">
-      <img src={img5} className="d-block w-100" alt="Imagen de muestra 4" />
+      <img src={img5} className="d-block w-100 rounded-2xl" alt="Imagen de muestra 4" />
     </div>
     <div className="carousel-item">
-      <img src={img6} className="d-block w-100" alt="Imagen de muestra 5" />
+      <img src={img6} className="d-block w-100 rounded-2xl" alt="Imagen de muestra 5" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

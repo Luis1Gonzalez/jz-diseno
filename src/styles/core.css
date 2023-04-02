@@ -42,12 +42,13 @@
 .menu-show {
     position:absolute;
     left:0;
-    top:190px;
+    top:170px;
     background-color: rgb(235, 232, 232);    
 }
 
 @media (min-width: 768px){
     .menu-show {
-        top:150px; 
+        top:160px; 
     }
 }
+
