@@ -1,5 +1,6 @@
 import { offer } from '../data/objeto'
 import valoraciones from '../assets/valoraciones.gif'
+import { Link } from 'react-router-dom'
 
 export default function Presentation() {
     return (
@@ -34,7 +35,7 @@ export default function Presentation() {
 
         <div className='flex flex-col px-4'>
         <p className='text-justify text-sm mb-3'>La opinión de <b>Nuestos Clientes</b> es nuestra mejor carta de presentación, por ello le garantizamos su satisfacción.</p>
-        <p className='text-red-700 hover:text-red-900 italic text-xs hover:text-lg pointer' >Aqui puedes ver sus valoraciones.</p>
+        <p className='text-red-700 hover:text-red-900 italic text-xs hover:text-lg pointer'><Link to='testimnios-de-los-clientes'>Aqui puedes ver sus valoraciones.</Link></p>
         </div>
         
       </div>
