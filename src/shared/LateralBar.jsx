@@ -3,16 +3,17 @@ import { FaMapMarkedAlt } from 'react-icons/fa'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { IoMdMailUnread } from 'react-icons/io'
 import valoraciones from '../assets/valoraciones.gif'
+import { Link } from "react-router-dom"
 
 
 export default function LateralBar() {
   return (
-    <div className='hidden lg:flex lg:flex-col h-vh w-[30%] border-r-4 items-center'>
+    <div className='hidden lg:flex lg:flex-col h-vh w-[30%] items-center'>
 
       <div className='bg-white mt-4 mb-8'>
-        <p className=' py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Inicio</p>
-        <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Servicios</p>
-        <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Nuestros Proyectos</p>
+      <p className=' py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='/'>Inicio</Link></p>
+                <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='/servicios'>Servicios</Link></p>
+        <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'><Link to='galeria'>Galería</Link></p>
         <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Opiniones de Clientes</p>
         <p className='border-t lg:border-none border-gray-400 py-2 px-10 hover:text-red-800 font-bold lg:text-lg hover:text-lg tracking-widest'>Contacto</p>
       </div>
