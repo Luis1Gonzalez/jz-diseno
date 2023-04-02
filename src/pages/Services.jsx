@@ -13,7 +13,7 @@ function Services() {
 <div className='my-8'>
   {services.map(service => (
     <div className='bg-stone-200 lg:shadow-lg lg:flex lg:items-center p-2 justify-between rounded-xl my-3' key={service.id}>
-      <img className='lg:w-[50%] rounded-xl order-2 lg:h-[300px]' src={service.image} alt="mueble de melamine" />
+      <img className='lg:w-[50%] object-cover h-[200px] w-[100%] rounded-xl order-2 lg:h-[300px]' src={service.image} alt="mueble de melamine" />
         <p className='lg:w-[50%] text-sm lg:text-2xl text-center py-3 font-medium lg:font-bold order-1'>{service.description}</p>
     </div>
   ))}

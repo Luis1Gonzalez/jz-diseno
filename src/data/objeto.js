@@ -39,6 +39,10 @@ import z25 from '../assets/z25.jpg'
 import z26 from '../assets/z26.jpg'
 import z27 from '../assets/z27.jpg'
 import z28 from '../assets/z28.jpg'
+import testimonio1 from '../assets/testimonio1.jpg'
+import testimonio2 from '../assets/testimonio2.png'
+import testimonio3 from '../assets/testimonio3.png'
+import testimonio4 from '../assets/testimonio4.png'
 
 
 const offer = [
@@ -50,9 +54,10 @@ const offer = [
 export {offer}
 
 const opinions = [
-{id:1, name:'Juan Gomez', date: '15. Junio, 2022', contribution:'Un trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
-{id:2, name:'Eva Castro', date: '28. Noviembre, 2022', contribution:' trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
-{id:3, name:'Jean Marin', date: '15. Febrero, 2023', contribution:'impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
+{id:1, name:'Juan Gomez', date: '15. Junio, 2022', image: testimonio1, contribution:'Un trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
+{id:2, name:'Eva Castro', date: '28. Noviembre, 2022', image: testimonio3, contribution:' trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
+{id:3, name:'Jean Marin', date: '15. Febrero, 2023', image: testimonio2, contribution:'impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
+{id:4, name:'Freddy Salazar', date: '07. Abril, 2023', image: testimonio4, contribution:'Días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
 ]
 export {opinions}
 

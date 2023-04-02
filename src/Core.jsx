@@ -5,6 +5,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Index from "./pages/Index"
 import Services from "./pages/Services"
 import Galery from "./pages/Galery"
+import Clients from "./pages/Clients"
 
 
 export default function Core() {
@@ -17,6 +18,7 @@ export default function Core() {
         <Route path="/" element={<Index />}></Route>
         <Route path="/servicios" element={<Services />}></Route>
         <Route path="/galeria" element={<Galery />}></Route>
+        <Route path="/testimnios-de-los-clientes" element={<Clients />}></Route>
       </Routes>
       <Footer />
       </BrowserRouter>
