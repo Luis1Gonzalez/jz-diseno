@@ -34,7 +34,7 @@ export default function Head() {
                 <div className=''>
                     <div className='flex items-center justify-around pt-4 pb-4'>
                         <div className='w-[25%] lg:w-[50%] lg:my-5 flex justify-center mx-2'>
-                            <img className='h-[70px] lg:h-[150px]' src={logo} alt="logo" />
+                        <Link to='/'><img className='h-[70px] lg:h-[150px]' src={logo} alt="logo" /></Link>
                         </div>
 
                         <div className='ml-2 w-[50%] lg:w-[100%] lg:my-2 flex flex-col items-center lg:items-start'>
@@ -46,7 +46,7 @@ export default function Head() {
                             <RiMenuAddFill />
                         </div>
 
-                    </div>
+                        </div>
 
                     <div className='mb-4'>
                         <ul className='flex w-100 justify-evenly items-center lg:text-5xl italic text-sky-400 mb-4'>
