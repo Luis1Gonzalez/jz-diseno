@@ -46,18 +46,18 @@ import testimonio4 from '../assets/testimonio4.png'
 
 
 const offer = [
-    {id:1, image: j1, ddescription: 'Reformas del Hogar'},
-    {id:2, image: j2, ddescription: 'Revestido de Pisos'},
-    {id:3, image: j3, ddescription: 'Reformas Sanitarias'},
-    {id:4, image: j4, ddescription: 'Diseño y Fabricación de Muebles a Medida'}
+    {id:1, image: j1, description: 'Reformas del Hogar'},
+    {id:2, image: j2, description: 'Revestido de Pisos'},
+    {id:3, image: j3, description: 'Reformas Sanitarias'},
+    {id:4, image: j4, description: 'Diseño y Fabricación de Muebles a Medida'}
 ]
 export {offer}
 
 const opinions = [
-{id:1, name:'Juan Gomez', date: '15. Junio, 2022', image: testimonio1, contribution:'Un trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
-{id:2, name:'Eva Castro', date: '28. Noviembre, 2022', image: testimonio3, contribution:' trabajo impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
-{id:3, name:'Jean Marin', date: '15. Febrero, 2023', image: testimonio2, contribution:'impecable. En dos días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
-{id:4, name:'Freddy Salazar', date: '07. Abril, 2023', image: testimonio4, contribution:'Días nos han hecho todo lo que les habíamos pedido. Se adaptan y aconsejan con mejores soluciones.'},
+{id:1, name:'Juan Gomez', date: '15. Junio, 2022', image: testimonio1, contribution:'Me han realizado un trabajo impecable, han traído los muebles fabricados y los han montado en un momento, todo ha salido muy bien..'},
+{id:2, name:'Eva Castro', date: '28. Noviembre, 2022', image: testimonio3, contribution:'Me han hecho varios trabajos en mi casa y estoy muy contenta con los resultados y muy agradecida con los chicos. Gracias…'},
+{id:3, name:'Jean Marin', date: '15. Febrero, 2023', image: testimonio2, contribution:'Les contrate para pintar la oficina y luego los llamé para hacer una reforma en casa, recomendables al 100% para trabajos de pintura, reformas y electricidad.'},
+{id:4, name:'Freddy Salazar', date: '07. Abril, 2023', image: testimonio4, contribution:'Conozco a Javier hace años y siempre ha hecho buen trabajo lo recomiendo por ser una buena persona y cumplir con su trabajo, siempre he quedado satisfecho.'},
 ]
 export {opinions}
 
