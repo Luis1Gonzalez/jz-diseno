@@ -65,7 +65,7 @@ export default function Footer() {
             </div>
 
             <div className='text-xs text-center'>
-                <p>Copyright 2023 JZ Diseños&Muebles | Todos los derechos reservados | Desarrollado por Luis1Gonzalez</p>
+                <p><a href="https://www.luis1gonzalez.com">Copyright 2023 JZ Diseños&Muebles | Todos los derechos reservados | Desarrollado por https://www.luis1gonzalez.com</a></p>
             </div>
 
             <div className='text-xs text-center mt-14'>
